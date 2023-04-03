@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Off-Grid</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora Off-Grid</h1>
+    </header>
+
+    <div class="valorkwh">
+        <div class="legenda_kwh"><span>Consumo diário total:</span></div>
+        
+        <div class="resultadokwh"><span>Wh/dia</span></div>
+    </div>
+    <form name="meuForm" method="post" id="formulario">
+        <div class="box">
+            <label>
+                <span>Descrição do Equipamento:</span>
+                 <input type="text" class="add_list" id="desc_equip"/>
+    
+            </label>
+    
+            <label>
+                 <span>Potencia(W)</span>
+                <input type="number" class="add_list" id="potencia"/>
+             </label>
+    
+            <label>
+                 <span>Quantidade</span>
+                <input type="number" class="add_list" id="quantidade"/>
+            </label>
+    
+            <label>
+                 <span>Horas de uso ao dia</span>
+                 <input type="number" class="add_list" id="horas_uso"/>
+                <input type="button" class="button_list" value="Enviar" />
+            </label>
+        </div>
+        
+    
+</body>
+</html>

@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.box{
+    width: 80%;
+    margin: 20px;
+    
+    
+
+}
+#formulario{
+    width: 400px;
+    height: 600px;
+}
+.add_list{
+    width: 100%;
+}
